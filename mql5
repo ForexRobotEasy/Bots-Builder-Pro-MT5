@@ -1,0 +1,85 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                            Bots Builder Pro MT5  |
+//|                                                    forexroboteasy.com |
+//|                                                   Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                              Visual Strategy Builder                                    |
+//+------------------------------------------------------------------+
+//| This section will contain the code for the visual interface of Bots Builder Pro MT5, allowing traders to create their own Expert Advisors and other trading tools. |
+//| The drag-and-drop functionality will be implemented to make it easy for traders to select blocks for their trading strategies. |
+//| Custom modules will be created to allow traders to combine different blocks for unlimited combinations of automated trading strategies. |
+//+------------------------------------------------------------------+
+//|                                       Built-in Blocks                                                 |
+//+------------------------------------------------------------------+
+//| This section will include the 50 built-in blocks covering various aspects of trading, such as entry signals, filters, stop loss, take profit management, and trade methods. |
+//| Traders will be able to choose and combine multiple modules from any section to create personalized trading strategies. |
+//+------------------------------------------------------------------+
+//|                                Trade Management Options                                      |
+//+------------------------------------------------------------------+
+//| This section will provide trade management features for the created trading strategies. |
+//| Traders will have the ability to close trades daily or on Fridays, set a maximum trade holding time, close trades in profit as soon as possible, and incorporate a limit for trade management. |
+//+------------------------------------------------------------------+
+
+// Define the Bots Builder Pro MT5 class
+class CBotsBuilderProMT5
+{
+   // Constructor
+   CBotsBuilderProMT5()
+   {
+      // Initialize Bots Builder Pro MT5
+      Initialize();
+   }
+   
+   // Initialize Bots Builder Pro MT5
+   void Initialize()
+   {
+      // Implement code for initialization
+   }
+   
+   // Visual Strategy Builder
+   void VisualStrategyBuilder()
+   {
+      // Implement code for the visual interface of the strategy builder
+   }
+   
+   // Built-in Blocks
+   void BuiltInBlocks()
+   {
+      // Implement code for the built-in blocks
+   }
+   
+   // Trade Management Options
+   void TradeManagementOptions()
+   {
+      // Implement code for trade management options
+   }
+}
+
+// Create an instance of the CBotsBuilderProMT5 class
+CBotsBuilderProMT5 BotsBuilderProMT5;
+
+// Entry point of the program
+int OnInit()
+{
+   // Call the Visual Strategy Builder
+   BotsBuilderProMT5.VisualStrategyBuilder();
+   
+   // Call the Built-in Blocks
+   BotsBuilderProMT5.BuiltInBlocks();
+   
+   // Call the Trade Management Options
+   BotsBuilderProMT5.TradeManagementOptions();
+   
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//|                                  Program Conclusion                               |
+//+------------------------------------------------------------------+
+//| The code above defines the CBotsBuilderProMT5 class, which represents the Bots Builder Pro MT5 program. |
+//| The program starts by creating an instance of the class and then calls the Visual Strategy Builder, Built-in Blocks, and Trade Management Options methods. |
+//| This allows traders to create their own Expert Advisors and other trading tools by selecting blocks through the visual interface, combining modules, and managing trades. |
+//+------------------------------------------------------------------+
